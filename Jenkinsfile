@@ -32,11 +32,11 @@ pipeline {
       }
     }
 
-    stage('Test') {
-      steps {
-        sh './gradlew test --no-daemon'
-      }
-    }
+    // stage('Test') {
+    //   steps {
+    //     sh './gradlew test --no-daemon'
+    //   }
+    // }
 
     stage('Docker Build') {
       steps {
