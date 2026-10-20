@@ -15,7 +15,7 @@ pipeline {
     TARGET_ENV     = "${params.TARGET_ENV}"
     IMAGE_NAME     = 'product-service'
     IMAGE_TAG      = "${env.BUILD_NUMBER}"
-    MANIFESTS_REPO = 'github.com/<내계정>/product-service-manifests.git'
+    MANIFESTS_REPO = 'github.com/point73/product-service-manifests.git'
   }
 
   stages {
